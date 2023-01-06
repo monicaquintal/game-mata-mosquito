@@ -16,13 +16,18 @@ ajustaTamanhoPalcoJogo()
 
 function posicaoRandomica() {
 
+  //remover o mosquito anterior (caso exista)
+  if(document.getElementById('mosquito')) {
+  document.getElementById('mosquito').remove()
+  }
+  
+  // decremento de 90px para que a imagem não estoure a dimensão do palco:
   var posicaoX = Math.floor(Math.random() * largura) - 90
   var posicaoY = Math.floor(Math.random() * altura) - 90
-  // decremento de 90px para que a imagem não estoure a dimensão do palco! 
 
+  // em caso da posição ser < 0, igualará a zero:
   posicaoX = posicaoX < 0 ? 0 : posicaoX
   posicaoY = posicaoY < 0 ? 0 : posicaoY
-  // em caso da posição ser < 0, igualará a zero!
 
   console.log(posicaoX, posicaoY)
 
@@ -33,6 +38,7 @@ function posicaoRandomica() {
   mosquito.style.left = posicaoX + 'px'
   mosquito.style.top = posicaoY + 'px'
   mosquito.style.position = 'absolute'
+  mosquito.id = 'mosquito'
 
   document.body.appendChild(mosquito)
 }

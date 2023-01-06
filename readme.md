@@ -25,3 +25,9 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 - alterando a orientação da imagem de modo aleatório.
 
 ### Aula 7:
+- crianco e removendo mosquitos a cada ciclo de tempo.
+- setInterval determina o aparecimento de novos mosquitos.
+- .remove() para remoção do mosquito anterior (se houver).
+
+### Aula 08: 
+- criando o cenário
