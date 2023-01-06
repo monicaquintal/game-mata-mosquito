@@ -18,5 +18,10 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 - manipulação do DOM (createElement, appendChild).
 
 ### Aula 5:
-- criação de tamanhoa variados para o mosquito.
+- criação de tamanhos variados para o mosquito.
 - switch case.
+
+### Aula 6:
+- alterando a orientação da imagem de modo aleatório.
+
+### Aula 7:
