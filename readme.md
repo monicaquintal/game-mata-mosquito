@@ -32,3 +32,10 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 ### Aula 08: 
 - criando o cenário.
 - incluindo background e criando painel de tempo e vidas.
+
+### Aula 09:
+- implementando o controle de pontos de vida.
+- incluindo o evento de click no mosquito.
+- lógica para controle das vidas perdidas.
+
+### Aula 10:
