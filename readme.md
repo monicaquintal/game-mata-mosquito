@@ -39,3 +39,7 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 - lógica para controle das vidas perdidas.
 
 ### Aula 10:
+- game over.
+- utilização do BOM para encaminhar à página de fim de jogo.
+
+### Aula 11:
