@@ -51,4 +51,9 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 - redirecionando o usuário para página de vitória.
 
 ### Aula 13: 
-- página inicial.
+- criando a página inicial.
+- renomeando a antiga index.html para app.html.
+- criação do select e sua lógica.
+
+### Aula 14:
+- aplicando o nível de dificuldade.

@@ -5,6 +5,27 @@ var largura = 0
 var vidas = 1
 var tempo = 15
 
+/***** Extraindo o nível encaminhado como parâmetro para a página *****/
+var criaMosquitoTempo = 2000
+
+var nivel = window.location.search
+// search recupera o ponto de interrogação e o que há à direita dele
+nivel.replace('?', '') 
+//remove o caracter ? da string! Ou seja, recupera apenas o parâmetro do nível
+
+if (nivel === "normal") {
+  //tempo de 2000 milissegundos
+  criaMosquitoTempo = 2000
+} else if (nivel === "dificil") {
+  //tempo de 1000 milissegundos
+  criaMosquitoTempo = 1000
+} else if (nivel === "vish") {
+  //tempo de 750 milissegundos
+  criaMosquitoTempo = 750
+}
+
+
+/***** Ajustando o tamanho do palco do jogo *****/
 function ajustaTamanhoPalcoJogo() {
   largura = window.innerWidth
   altura = window.innerHeight

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./style.css">
 
   <script>
+    //script para selecionar o nível
     function iniciarJogo() {
       var nivel = document.getElementById('nivel').value
       
@@ -16,7 +17,8 @@
         alert("Selecione um nível para iniciar o jogo! 🦟")
         return false
       } 
-      alert (nivel)
+      window.location.href = "./app.html?" + nivel
+      //"?" separa a página a redimensionar do parâmetro selecionado
     }
   </script>
 
