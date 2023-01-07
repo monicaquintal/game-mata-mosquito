@@ -43,3 +43,6 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 - utilização do BOM para encaminhar à página de fim de jogo.
 
 ### Aula 11:
+- adicionando o cronômetro para controlar o tempo de partida.
+- setInterval(), document.gerElementById.
+- clearInterval(), quando vencer o jogo.
