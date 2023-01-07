@@ -30,4 +30,5 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 - .remove() para remoção do mosquito anterior (se houver).
 
 ### Aula 08: 
-- criando o cenário
+- criando o cenário.
+- incluindo background e criando painel de tempo e vidas.
