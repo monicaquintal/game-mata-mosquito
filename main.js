@@ -10,7 +10,7 @@ var criaMosquitoTempo = 2000
 
 var nivel = window.location.search
 // search recupera o ponto de interrogação e o que há à direita dele
-nivel.replace('?', '') 
+nivel = nivel.replace('?', '') 
 //remove o caracter ? da string! Ou seja, recupera apenas o parâmetro do nível
 
 if (nivel === "normal") {

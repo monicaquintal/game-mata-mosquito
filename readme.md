@@ -5,6 +5,15 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 
 </div>
 
+## O jogo
+
+<div align="center">
+
+<img style="border-radius:40px;" src="./imagens/tela-game.png" >
+</div>
+
+## Conteúdo
+
 ### Aulas 1 e 2: 
 - preparando o ambiente.
 
@@ -57,3 +66,6 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 
 ### Aula 14:
 - aplicando o nível de dificuldade.
+
+### Aula 15:
+- ajustes e considerações finais.
