@@ -46,3 +46,6 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 - adicionando o cronômetro para controlar o tempo de partida.
 - setInterval(), document.gerElementById.
 - clearInterval(), quando vencer o jogo.
+
+### Aula 12:
+- redirecionando o usuário para página de vitória.

@@ -22,7 +22,7 @@ var cronometro = setInterval(function() {
   if (tempo < 0) {
     clearInterval(cronometro) // zera o cronômetro
     clearInterval(criaMosquito) // cancela o surgimento de novos mosquitos
-    alert('Vitoria')
+    window.location.href= './you_win.html'
   } else {
   document.getElementById('cronometro').innerHTML = tempo
   }
