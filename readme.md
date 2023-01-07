@@ -49,3 +49,6 @@ Desenvolvido na Seção 8: JavaScript do Curso Desenvolvimento Web Completo 2022
 
 ### Aula 12:
 - redirecionando o usuário para página de vitória.
+
+### Aula 13: 
+- página inicial.
